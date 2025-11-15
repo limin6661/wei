@@ -1,0 +1,15 @@
+# Node / frontend
+web/node_modules
+web/dist
+
+# Go / backend
+server/.env
+server/.env.*
+server/wechat2rss
+
+# System
+.DS_Store
+Thumbs.db
+
+# Misc
+*.log
