@@ -7,7 +7,7 @@ COPY web .
 RUN npm run build
 
 # build backend
-FROM golang:1.22-bullseye AS gobuild
+FROM golang:1.25-bullseye AS gobuild
 WORKDIR /app
 COPY server/go.mod server/go.sum ./server/
 RUN cd server && go mod download
